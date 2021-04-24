@@ -7,11 +7,11 @@ public class SimpleRestController {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Hello Sir...";
+		return "Hello Sir...How are you?";
 	}
-	@GetMapping("")
+	@GetMapping("/")
 	public String getDefaultMessage() {
-		return "No messages available";
+		return "Welcome...";
 	}
 	
 }
